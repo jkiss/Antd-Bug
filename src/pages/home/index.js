@@ -1,6 +1,6 @@
 /*
- * @Author: Nokey 
- * @Date: 2017-07-13 18:03:17 
+ * @Author: Nokey
+ * @Date: 2017-07-13 18:03:17
  * @Last Modified by: Mr.B
  * @Last Modified time: 2019-02-09 15:44:20
  */
@@ -31,6 +31,7 @@ import 'style/reset.styl'
 
 // com
 import { Slider } from 'antd'
+import 'antd/dist/antd.css'
 
 class App extends React.Component {
     constructor(props) {
@@ -55,9 +56,9 @@ class App extends React.Component {
          * Config
          */
         _me._app = $('#app')
-        
+
     }
-    
+
     render() {
         return (
             <section>
